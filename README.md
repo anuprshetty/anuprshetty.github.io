@@ -57,10 +57,9 @@ Click on the image below to set up and contribute to the project or [Click here]
 
 ## Project Maintainers👨🏫:
 
-| <img src = "https://avatars2.githubusercontent.com/u/46641503?v=4"> | <img src = "https://avatars2.githubusercontent.com/u/40017559?v=4"> | 
-| :----------------------------------------------------------: | :----------------------------------------------------------: | 
-|     [Smaranjit Ghose](https://github.com/smaranjitghose) |    [Anush Bhatia](https://github.com/anushbhatia)                       
-
+| <img src = "https://avatars2.githubusercontent.com/u/46641503?v=4"> | <img src = "https://avatars2.githubusercontent.com/u/40017559?v=4"> |
+| :-----------------------------------------------------------------: | :-----------------------------------------------------------------: |
+|        [Smaranjit Ghose](https://github.com/smaranjitghose)         |           [Anush Bhatia](https://github.com/anushbhatia)            |
 
 ## Our valuable Contributors👩‍💻👨‍💻 :
 
@@ -81,3 +80,9 @@ Click on the image below to set up and contribute to the project or [Click here]
 <a href="https://devincept.codes/"><img src="./readme_assets/open_source_programs/devincept.gif" width="25%"></a>
 <a href="https://ghc.anitab.org/programs-and-awards/open-source-day/"><img src="./readme_assets/open_source_programs/OSD.jpg" width="25%"></a>
 </p>
+
+## Anup's Personal Portfolio Information
+
+### Links
+
+- [pull from original repo to forked repo](https://stackoverflow.com/a/3903835)
