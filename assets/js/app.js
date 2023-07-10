@@ -1,16 +1,15 @@
-
 "use strict";
 // Sweet Alert CDN through JS
 let script = document.createElement("script");
-script.type = 'text/javascript';
-script.src="https://unpkg.com/sweetalert/dist/sweetalert.min.js";
+script.type = "text/javascript";
+script.src = "https://unpkg.com/sweetalert/dist/sweetalert.min.js";
 document.body.appendChild(script);
 
 // Header
 
 let header = $(`
 <nav class="navbar navbar-expand-lg fixed-top dark-theme" id="navbar">
-<a class="navbar-brand" href="index.html">John Doe </a>
+<a class="navbar-brand" href="index.html">Anup Shetty </a>
 <div class="hamburger_wrapper navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 
   <div id="js-hamburger" class="hamburger">
@@ -138,7 +137,7 @@ let footer = $(`
              <div class="form-header">
                 <h6 class="display">Get in Touch</h6>
               </div>
-                <form name="form1" action="https://formcarry.com/s/BywEPAJNb" method="POST" accept-charset="UTF-8" >
+                <form name="form1" action="https://formcarry.com/s/7sq_v-XH6N" method="POST" accept-charset="UTF-8" >
                   <input id="name" type="text" name="name" placeholder="Your Name" required/>
                   <input id="email" type="email" name="email" placeholder="Email Address" required/>                  
                   <textarea id="textArea" name="message" placeholder="Type your Message" required></textarea>
@@ -158,7 +157,31 @@ let footer = $(`
     
 
     <div class="rounded-social-buttons tag">
-    <a class="social-button twitter" href="#" target="_blank">
+    <a class="social-button github" href="https://github.com/anuprshetty" target="_blank">
+    <!-- SVG code for Github icon -->
+    <svg class="github-icon-footer" width="45px" height="45px" viewBox="0 0 300 300">
+        <!-- body -->
+        <path id="body" d="M112.5,234.4v43.1c24.5,7.5,50.5,7.5,75,0V225c-0.4-11.1-4.9-21.6-12.7-29.6c30-3.4,59.5-23.5,59.5-64.1
+                                    c0.9-13.9-3.3-27.7-11.8-38.7c4.1-11.6,3.7-24.4-1.3-35.7c0,0-11.2-3.7-37.5,13.8c-22.1-6.1-45.3-6.1-67.4,0
+                                    C90.6,53.3,78.9,56.8,78.9,56.8c-5,11.3-5.4,24.1-1.3,35.7c-8.5,11.1-12.7,24.8-11.9,38.7c0.2,33.8,26.4,61.8,60.2,64.1
+                                    c-5,4.7-8.1,11.1-8.6,18" />
+        <!-- arm                             -->
+        <path id="arm" d="M125.2,213.4c-13.9,7.8-31.5,2.8-39.3-11.2c-4.3-7.7-12-12.8-20.7-13.8c-11.2,0-4.6,6.4,0,9.4
+                                    c6,5.1,10.8,11.5,13.8,18.8c2.9,7.4,7.7,24.1,41.5,17.8" />
+    </svg>
+    </a>
+
+    <a class="social-button linkedin" href="https://www.linkedin.com/in/anuprshetty/" target="_blank" >
+    <!-- svg code for linkedin icon -->
+      <svg class="linkedin-icon-footer" xmlns="http://www.w3.org/2000/svg" width="35" viewBox="0 0 24 24" fill="#0e76a8"
+        stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
+        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+        <rect x="2" y="9" width="4" height="12"></rect>
+        <circle cx="4" cy="4" r="2"></circle>
+      </svg>
+    </a>
+
+    <a class="social-button twitter" href="https://twitter.com/anuprshetty" target="_blank">
     <!-- SVG code for twitter icon -->
     <svg class="twitter-icon-footer" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 500 500" enable-background="new 0 0 500 500"
@@ -215,46 +238,6 @@ let footer = $(`
                           c117.9-117.9,82.9-167.7,82.9-167.7l-2.8-0.1C241.6,182.3,238.2,181.9,233.2,181.5z" />
     </svg>
     </a>
-
-    <a class="social-button linkedin" href="" target="_blank" >
-    <!-- svg code for linkedin icon -->
-      <svg class="linkedin-icon-footer" xmlns="http://www.w3.org/2000/svg" width="35" viewBox="0 0 24 24" fill="#0e76a8"
-        stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
-        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-        <rect x="2" y="9" width="4" height="12"></rect>
-        <circle cx="4" cy="4" r="2"></circle>
-      </svg>
-    </a>
-
-
-
-    <a class="social-button instagram" href="" target="_blank" >
-    <!-- svg code for instagram icon -->
-      <svg class="instagram-icon-footer" x="0px" y="0px" viewBox="0 0 202.5 202.5"
-        style="enable-background:new 0 0 202.5 202.5;">
-        <circle id="littleCircle" class="st0" cx="101" cy="101.5" r="18.9" />
-        <circle id="shutter" class="st0" cx="101" cy="101.5" r="8" />
-        <circle id="lens" class="st0" cx="125.5" cy="78.6" r="2.9" />
-        <path id="camera" class="st0" d="M79,60.5h44c10.5,0,19,8.5,19,19v44c0,10.5-8.5,19-19,19H79c-10.5,0-19-8.5-19-19v-44                                                                            C60,69,68.5,60.5,79,60.5z" />
-      </svg>
-    </a>
-
-    <a class="social-button github" href="#" target="_blank">
-    <!-- SVG code for Github icon -->
-    <svg class="github-icon-footer" width="45px" height="45px" viewBox="0 0 300 300">
-        <!-- body -->
-        <path id="body" d="M112.5,234.4v43.1c24.5,7.5,50.5,7.5,75,0V225c-0.4-11.1-4.9-21.6-12.7-29.6c30-3.4,59.5-23.5,59.5-64.1
-                                    c0.9-13.9-3.3-27.7-11.8-38.7c4.1-11.6,3.7-24.4-1.3-35.7c0,0-11.2-3.7-37.5,13.8c-22.1-6.1-45.3-6.1-67.4,0
-                                    C90.6,53.3,78.9,56.8,78.9,56.8c-5,11.3-5.4,24.1-1.3,35.7c-8.5,11.1-12.7,24.8-11.9,38.7c0.2,33.8,26.4,61.8,60.2,64.1
-                                    c-5,4.7-8.1,11.1-8.6,18" />
-        <!-- arm                             -->
-        <path id="arm" d="M125.2,213.4c-13.9,7.8-31.5,2.8-39.3-11.2c-4.3-7.7-12-12.8-20.7-13.8c-11.2,0-4.6,6.4,0,9.4
-                                    c6,5.1,10.8,11.5,13.8,18.8c2.9,7.4,7.7,24.1,41.5,17.8" />
-    </svg>
-    </a>
-
-
-    
     </div>
     </div>
 </footer>
@@ -438,32 +421,29 @@ $(window).on("load", function () {
 
 //send button animation
 
-
 $(function submitAnimation() {
-  const name = document.querySelector("#name")
-  const emailAdress = document.querySelector("#email")
-  const text = document.querySelector("#textArea")
-  const emailPattern = /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/;
+  const name = document.querySelector("#name");
+  const emailAdress = document.querySelector("#email");
+  const text = document.querySelector("#textArea");
+  const emailPattern =
+    /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/;
 
   $("#lnch").on("click", function () {
-
     // Check if the name field is empty or contains a number
-    if (name.value == "" || (/\d/.test(name.value))) {
-      swal("Error !","Please enter a valid name !","error");
+    if (name.value == "" || /\d/.test(name.value)) {
+      swal("Error !", "Please enter a valid name !", "error");
       return;
     }
     // Check if the email field is empty or email is not valid ex: test@@email.com
-    else if (emailAdress.value == "" || !(emailPattern.test(emailAdress.value))) {
-      swal("Error !","Please enter a valid email !","error");
+    else if (emailAdress.value == "" || !emailPattern.test(emailAdress.value)) {
+      swal("Error !", "Please enter a valid email !", "error");
       return;
     }
     // Check if the message field is empty
     else if (text.value == "") {
-      swal("Error !","Please enter a valid message !","error");
+      swal("Error !", "Please enter a valid message !", "error");
       return;
-    }
-    else {
-
+    } else {
       setTimeout(function () {
         $("#lnch").addClass("launching").text("Sending");
         $("#lnch_btn").addClass("launching");
@@ -474,7 +454,7 @@ $(function submitAnimation() {
       }, 1500);
       // Wait for 2.2 seconds so that the send button animation can be fully played before submitting the form
       setTimeout(() => {
-        document.querySelector('form').submit();
+        document.querySelector("form").submit();
       }, 2200);
     }
   });
