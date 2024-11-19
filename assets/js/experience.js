@@ -5,25 +5,42 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "SDE II",
-    cardImage: "assets/images/experience-page/fynd_logo.jpeg",
-    place: "Jio Fynd (Startup)",
-    time: "Bengaluru, India (Aug, 2022 - Nov, 2022)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "Independent Learning and Development",
+    cardImage: "assets/images/experience-page/blockchain_logo.jpg",
+    place: "Career Break [Focused on Blockchain Upskilling]",
+    time: "Bengaluru, India (Dec. 2022 - PRESENT)",
+    desp: "<li>Conducted an in-depth study of blockchain architecture, with a focus on Layer 1 and Layer 2 scalability solutions, acquiring a robust understanding of consensus mechanisms.</li> \
+    <li>Developed a series of interconnected blockchain projects, progressively pushing the boundaries of my knowledge and skills in end-to-end DApp development.</li> \
+    <li>Deployed and explored a private blockchain devnet (execution, consensus, and validator layers) using the Kurtosis ethereum-package, enabling hands-on experimentation and real-time analysis of blockchain internals, covering transaction processing, smart contract execution, data storage, state management, block production, inter-node communication and consensus for a comprehensive understanding of blockchain systems.</li> \
+    <li>Engaged with various open-source blockchain projects, delving into source code to analyze and understand architecture, system design, and implementation of blockchain protocols. Building foundational expertise to contribute meaningfully to the Ethereum ecosystem and other blockchain projects in the future.</li>",
+  },
+  {
+    title: "Software Development Engineer II",
+    cardImage: "assets/images/experience-page/jio_fynd_logo.jpeg",
+    place: "Jio Fynd [Startup - Retail Tech, On-site]",
+    time: "Bengaluru, India (Aug. 2022 - Nov. 2022)",
+    desp: "<li>Designed and implemented Product Variants feature, enabling sellers to list products with customizable attributes, enhancing user experience and expanding seller capabilities.</li> \
+    <li>Python ~ Node.js ~ Microservices ~ Event Loop ~ Kafka ~ Redis ~ ORM ~ Solr ~ Sentry ~ New Relic ~ AWS</li>",
   },
   {
     title: "R&D Engineer I",
     cardImage: "assets/images/experience-page/jukshio_logo.jpeg",
-    place: "Jukshio (Startup)",
-    time: "Hyderabad, India (Jan, 2022 - Jul, 2022)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    place: "Jukshio [Startup - AI, Remote]",
+    time: "Hyderabad, India (Jan. 2022 - Jul. 2022)",
+    desp: "<li>Developed scalable and reliable RESTful APIs to expose ML models, achieving a 95% reduction in data curation time.</li> \
+    <li>Designed and developed a Django REST Framework application, enabling employees to efficiently book and manage meeting rooms, parking slots, and workspaces.</li> \
+    <li>Implemented a high-performance ETL pipeline using Apache Airflow to optimize data loading and visualization, reducing latency from 5 minutes to 15 seconds.</li> \
+    <li>Flask ~ Celery ~ Multithreading ~ gRPC ~ Docker ~ Kubernetes ~ RabbitMQ ~ PostgreSQL ~ Superset ~ GCP</li>",
   },
   {
     title: "Intern, Software Engineer I, Software Engineer II",
-    cardImage: "assets/images/experience-page/philips_logo.png",
-    place: "Philips (MNC)",
-    time: "Bengaluru, India (Jan, 2019 - Dec, 2021)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    cardImage: "assets/images/experience-page/philips_logo.jpeg",
+    place: "Philips [MNC - Healthcare, Hybrid]",
+    time: "Bengaluru, India (Jan. 2019 - Dec. 2021)",
+    desp: "<li>Engineered a scalable web-based dashboard to enable real-time monitoring of infrastructure, platforms, managed services, and healthcare applications, streamlining system diagnostics and enhancing operational efficiency.</li> \
+    <li>Contributed to Philips' open-source initiative Nethra, by developing a dashboard for actionable insights into team performance and project timelines, fostering transparency and collaboration across internal departments.</li> \
+    <li>Optimized application performance by reducing initial load times from 90 seconds to 5 seconds through lazy initialization and builder design pattern, enhancing user experience.</li> \
+    <li>MongoDB ~ JavaScript ~ Bootstrap ~ Prometheus ~ Grafana ~ Terraform ~ Ansible ~ SonarQube ~ CI/CD ~ Azure</li>",
   },
 ];
 
@@ -62,10 +79,10 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "Nethra, Philips Inner Source Project",
+    title: "Nethra, Philips Open Source Initiative",
     cardImage: "assets/images/experience-page/nethra_insights_logo.png",
     description:
-      "A web based dashboard to get the insights about Philips internal teams and projects.",
+      "A dashboard for actionable insights into team performance and project timelines across internal departments.",
   },
   // {
   //   title: "StudentCode-in 2020",
