@@ -1,10 +1,16 @@
 AOS.init();
 /* Project Cards */
 
-const projectcards = document.querySelector(".projectcards");
+const blockchainProjectcards = document.querySelector(
+  ".blockchain-projectcards"
+);
+const graduationProjectcards = document.querySelector(
+  ".graduation-projectcards"
+);
+const hobbyProjectcards = document.querySelector(".hobby-projectcards");
 
 // Array of object for projects
-const projects = [
+const blockchainProjects = [
   {
     title: "Blockchain Network",
     cardImage: "assets/images/project-page/blockchain.png",
@@ -70,13 +76,69 @@ const projects = [
   },
 ];
 
+const graduationProjects = [
+  {
+    title: "Chandassu",
+    cardImage: "assets/images/project-page/chandassu.png",
+    description:
+      "Prosody analysis and identification of metrics for Kannada verses using rule-based approach.",
+    Previewlink: "https://chandassu.onrender.com/",
+    Githublink: "https://github.com/anuprshetty/chandassu",
+  },
+];
+
+const hobbyProjects = [
+  {
+    title: "Chatbox",
+    cardImage: "assets/images/project-page/chatbox.png",
+    description: "An instant messaging app.",
+    Previewlink: "https://chatbox-51xp.onrender.com/",
+    Githublink: "https://github.com/anuprshetty/chatbox",
+  },
+  {
+    title: "Sudoku Solver",
+    cardImage: "assets/images/project-page/sudoku_solver.png",
+    description: "An app that solves any sudoku puzzle.",
+    Previewlink: "https://anuprshetty.github.io/sudoku_solver/",
+    Githublink: "https://github.com/anuprshetty/sudoku_solver",
+  },
+  {
+    title: "Meetup",
+    cardImage: "assets/images/project-page/meetup.png",
+    description: "A web application.",
+    Previewlink: "https://github.com/anuprshetty/meetup",
+    Githublink: "https://github.com/anuprshetty/meetup",
+  },
+  {
+    title: "My Age Viewer",
+    cardImage: "assets/images/project-page/my_age_viewer.png",
+    description: "A web application.",
+    Previewlink: "https://anuprshetty.github.io/my_age_viewer/",
+    Githublink: "https://github.com/anuprshetty/my_age_viewer",
+  },
+  {
+    title: "Guess The Word",
+    cardImage: "assets/images/project-page/guess_the_word.png",
+    description: "A game of guessing an unknown word.",
+    Previewlink: "https://anuprshetty.github.io/guess_the_word/",
+    Githublink: "https://github.com/anuprshetty/guess_the_word",
+  },
+  {
+    title: "Tic Tac Toe",
+    cardImage: "assets/images/project-page/tic_tac_toe.png",
+    description: "A console based game to play with computer.",
+    Previewlink: "https://github.com/anuprshetty/tic_tac_toe",
+    Githublink: "https://github.com/anuprshetty/tic_tac_toe",
+  },
+];
+
 // function for rendering project cards data
-const showCards = () => {
+const showCards = (projects, projectcards) => {
   let output = "";
   projects.forEach(
     ({ title, cardImage, description, Previewlink, Githublink }) => {
       output += `       
-        <div class="column skill-card card" style="margin: 15px"data-aos="zoom-in-up" data-aos-easing="linear" data-aos-delay="300" data-aos-duration="600" >
+        <div class="column skill-card card" style="margin: 15px" data-aos="zoom-in-up" data-aos-easing="linear" data-aos-delay="300" data-aos-duration="600" >
           <div class="wrapper" style="background: url(${cardImage}) center / cover no-repeat;">
             <div class="header">
             </div>
@@ -98,28 +160,24 @@ const showCards = () => {
   );
   projectcards.innerHTML = output;
 };
-document.addEventListener("DOMContentLoaded", showCards);
 
-function myFunction() {
-  // Declare variables
-  var input, button, i, skillcard, card, title;
-  input = document.getElementById("myInput").value;
-  input = input.toUpperCase();
-  skillcard = document.getElementsByClassName("skill-card");
-  card = document.getElementsByClassName("card");
-  title = document.getElementsByClassName("title");
+document.addEventListener("DOMContentLoaded", () => {
+  const projectPairs = [
+    {
+      projects: blockchainProjects,
+      projectcards: blockchainProjectcards,
+    },
+    {
+      projects: graduationProjects,
+      projectcards: graduationProjectcards,
+    },
+    {
+      projects: hobbyProjects,
+      projectcards: hobbyProjectcards,
+    },
+  ];
 
-  // Loop through all list items, and hide those who don't match the search query
-  for (i = 0; i < button.length; i++) {
-    if (
-      button[i].innerHTML.toUpperCase().includes(input) ||
-      title[i].innerHTML.toUpperCase().includes(input)
-    ) {
-      skillcard[i].style.display = "";
-      card[i].style.display = "";
-    } else {
-      skillcard[i].style.display = "none";
-      card[i].style.display = "none";
-    }
-  }
-}
+  projectPairs.forEach(({ projects, projectcards }) =>
+    showCards(projects, projectcards)
+  );
+});
