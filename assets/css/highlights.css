@@ -98,13 +98,13 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-bottom: 160px;
+  margin-bottom: 1px;
 }
 
 #researchDetailsTable tr {
   background-color: var(--bg1-color);
   display: flex;
-  margin: 0px 4em 4em 4em;
+  margin: 0px 4em 1px 4em;
   transition: all 1s ease;
   border-radius: 5px;
   box-shadow: 1px 1px 6px rgb(0 0 0 / 15%), 2px 2px 7px rgb(0 0 0 / 14%),
@@ -881,8 +881,9 @@ a:hover {
 }
 .image-slider .swiper-slide .title {
   font-size: 3rem;
-  color: var(--text-color);
-  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  /* text-transform: uppercase; */
 }
 .controller,
 .controller1 {
@@ -913,9 +914,9 @@ a:hover {
 }
 .controller :hover {
   background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 50%;
-  width: 44px;
-  height: 44px;
+  border-radius: 30%;
+  width: 70px;
+  height: 70px;
 
   display: flex;
   align-items: center;
@@ -923,9 +924,9 @@ a:hover {
 }
 .controller1 :hover {
   background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 50%;
-  width: 44px;
-  height: 44px;
+  border-radius: 30%;
+  width: 70px;
+  height: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -942,10 +943,14 @@ a:hover {
 .swiper-button-next,
 .swiper-container-rtl .swiper-button-prev {
   background-image: none;
+  font-size: 4rem;
+  color: red;
 }
 .swiper-button-prev,
 .swiper-container-rtl .swiper-button-next {
   background-image: none;
+  font-size: 4rem;
+  color: red;
 }
 .image-slider .ctrl:hover {
   background-color: rgba(0, 0, 0, 0.5);
@@ -965,7 +970,7 @@ a:hover {
 }
 .image-slider .text-wrapper .text-inner {
   -webkit-transform: translateY(100%);
-  color: var(--text-color);
+  color: black;
   transform: translateY(100%);
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;

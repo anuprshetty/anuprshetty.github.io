@@ -46,7 +46,8 @@ const award = [
     image: "assets/images/highlights-page/jss_workshop.jpeg",
   },
   // {
-  //   title: "Yoga Participation",
+  //   title:
+  //     "Yoga Participation --> 'Alone we can do so little; together we can do so much.' - Helen Keller --> Participated in the largest yoga lesson - single venue (Guinness World Records official attempt) on international yoga day 2017 in Mysuru.",
   //   image: "assets/images/highlights-page/yoga_participation.jpeg",
   // },
 ];
