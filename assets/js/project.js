@@ -34,7 +34,7 @@ const blockchainProjects = [
   },
   {
     title: "NFT Marketplace",
-    cardImage: "assets/images/project-page/nft_marketplace.avif",
+    cardImage: "assets/images/project-page/nft_marketplace.png",
     description: "A dapp for selling and purchasing NFTs.",
     Previewlink: "https://github.com/anuprshetty/nft_marketplace",
     Githublink: "https://github.com/anuprshetty/nft_marketplace",
