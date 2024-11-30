@@ -4,17 +4,18 @@ const researchTable = document.querySelector(".main");
 
 const research = [
   {
-    title: "Metric Analyzer for Kannada Verse Using Rule-Based Approach.",
+    title: "Metric Analyzer for Kannada Verse Using Rule-Based Approach",
     authors: "Anup Shetty, Prathibha RJ, Juned S, Shashank BV, Manju Skanda KH",
     publicationUrl: "https://doi.org/10.1166/jctn.2020.9009",
     conferences:
-      "Journal of Computational and Theoretical Nanoscience, Volume 17, Numbers 9-10, September/October 2020, pp. 4007-4011(5).",
-    researchYr: "2020, JSS Science and Technology University, Mysuru",
+      "Journal of Computational and Theoretical Nanoscience, Volume 17, Numbers 9-10, September/October 2020, pp. 4007-4011(5). <br/> American Scientific Publishers",
+    researchYr:
+      "01 September 2020, JSS Science and Technology University, Mysuru",
     citebox: "popup1",
     image: "assets/images/highlights-page/chandassu_research.png",
     citation: {
       vancouver:
-        "Anup Shetty, Prathibha RJ, Juned S, Shashank BV, Manju Skanda KH. <br/> Metric Analyzer for Kannada Verse Using Rule-Based Approach. <br/> Journal of Computational and Theoretical Nanoscience, Volume 17, Numbers 9-10, September/October 2020, pp. 4007-4011(5).",
+        "Anup Shetty, Prathibha RJ, Juned S, Shashank BV, Manju Skanda KH <br/> Graduation Project: Chandassu - Prosody analysis and identification of metrics for Kannada verses using rule-based approach <br/> Journal of Computational and Theoretical Nanoscience, Volume 17, Numbers 9-10, September/October 2020, pp. 4007-4011(5). <br/> American Scientific Publishers",
     },
     abstract:
       "Metrical poetry in any language is called Chandassu (ಛಂದಸ್ಸು). It generates rhythm to poem when the predefined metric rules are properly followed. The classification of Chandassu is done with the help of syllables known as Laghu (ಲಘು), Guru (ಗುರು) and Gana (ಗಣ). <br/> The proposed metric analyzer for Kannada verse is a rule-based teaching and learning tool devised to identify and classify the Chandassu of Kannada poems. This tool also contains an exercise module to test the level of understanding of learners about metric analysis. Accuracy obtained by the proposed system is very good.",
