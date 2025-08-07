@@ -12,13 +12,6 @@ const hobbyProjectcards = document.querySelector(".hobby-projectcards");
 // Array of object for projects
 const blockchainProjects = [
   {
-    title: "Blockchain Network",
-    cardImage: "assets/images/project-page/blockchain.png",
-    description: "A simple blockchain network implementation in JavaScript.",
-    Previewlink: "https://github.com/anuprshetty/blockchain",
-    Githublink: "https://github.com/anuprshetty/blockchain",
-  },
-  {
     title: "NFT Bridge",
     cardImage: "assets/images/project-page/nft_bridge.jpg",
     description: "A dapp for moving NFTs from one blockchain to another.",
@@ -45,6 +38,13 @@ const blockchainProjects = [
     description: "A dapp for minting NFTs.",
     Previewlink: "https://nft-minter.onrender.com/",
     Githublink: "https://github.com/anuprshetty/nft_minter",
+  },
+  {
+    title: "Blockchain Network",
+    cardImage: "assets/images/project-page/blockchain.png",
+    description: "A simple blockchain network implementation in JavaScript.",
+    Previewlink: "https://github.com/anuprshetty/blockchain",
+    Githublink: "https://github.com/anuprshetty/blockchain",
   },
   {
     title: "Hash Wallet",

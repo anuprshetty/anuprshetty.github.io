@@ -70,9 +70,9 @@ const showCards2 = () => {
     </div>
       `)
   );
-  experiencecards.innerHTML = output;
+  // experiencecards.innerHTML = output;
 };
-document.addEventListener("DOMContentLoaded", showCards2);
+// document.addEventListener("DOMContentLoaded", showCards2);
 
 // Volunteership Cards
 
